@@ -16,6 +16,10 @@ body{
 .oriange{
     color: orange;
 }
+.col-1{
+    width: 100%;
+}
+
 .col-2{
     width: 50%;
 }
@@ -153,6 +157,57 @@ body{
     margin: 0;
     padding: 0;
 }
+/* Subscribtions Sections */
+
+.subscribe{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(245, 0, 0);
+    font-size: 32px;
+}
+#input-field{
+    padding: 20px 100px;
+    border-radius: 50px;
+    border: 2px solid rgb(233, 224, 224);
+}
+#input-field:hover{
+    border: 2px solid rgb(196, 13, 13);
+    
+
+}
+
+/* Order Section */
+
+.order-section{
+    box-shadow: rgb(230, 226, 226) 10px 10px 40px;
+    border-radius: 20px;
+
+}
+.order-left img{
+    width: 100%;
+    height: 100%;
+}
+.order-right{
+    text-align: center;
+    padding: 10%;
+
+}
+.order-right h1{
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+.order-right p{
+    font-size: 18px;
+
+}
+.order-right h4{
+    font-size: 22px;
+}
+
+
+
 /* Footer Section */
 
 
