@@ -17,6 +17,9 @@ body{
     color: orange;
 }
 
+.m-t-80{
+    margin-top: 80px;
+}
 
 /* Header Section */
 
@@ -46,11 +49,39 @@ body{
     text-decoration: none;
     color: white;
     background-image: linear-gradient(rgb(11, 11, 56),red );
-    border-radius: 20px;
-    padding: 10px 40px;
+    border-radius: 50px;
+    padding: 15px 40px;
     
 }
 
 .left-footer img{
     width: 100%;
+}
+
+/* About Section */
+
+.about-section{
+    padding: 0 20px;
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.about-left{
+    max-width: 720px;
+}
+.about-left img{
+    padding-left: 100px;
+    padding-top: 10px;
+  vertical-align: middle;
+  max-width: 50%;
+}
+.about-right{
+    margin-top: 100px;
+}
+.about-right h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: gray;
+}
+.about-right a{
+    padding-top: 500px;
 }
