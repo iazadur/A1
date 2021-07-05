@@ -126,7 +126,29 @@ body{
 .recipie-item p{
     color: gray;
 }
+/* Counter Section */
 
+.counter-section{
+    margin: 0 auto;
+}
+.counter{
+    padding: 50px;
+    box-shadow: rgb(230, 226, 226) 10px 10px 40px;
+    border-radius: 20px;
+    margin: 30px;
+    
+}
+.counter h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.counter p{
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
 /* Footer Section */
 
 
