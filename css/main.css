@@ -1,3 +1,9 @@
 body{
     margin: 0;
 }
+.flexible-display{
+    display: flex;
+}
+.col-2{
+    width: 50%;
+}
