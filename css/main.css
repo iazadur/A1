@@ -7,7 +7,7 @@ body{
 .container{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 5%;
+    padding: -1 5%;
     
 }
 .flexible-display{
@@ -63,16 +63,19 @@ body{
     
 }
 
-.left-footer img{
+.left-header img{
     width: 100%;
 }
 
 /* About Section */
 
 .about-section{
-    padding: 0 20px;
     background-image: url(../images/shapes/7.png);
     background-repeat: no-repeat;
+}
+.about{
+    max-width: 80%;
+    margin: 0 auto;
 }
 .about-left{
     max-width: 720px;
@@ -84,7 +87,8 @@ body{
   max-width: 50%;
 }
 .about-right{
-    margin-top: 100px;
+    margin-top: 40px;
+
 }
 .about-right h1{
     font-size: 50px;
@@ -153,14 +157,14 @@ body{
 
 
 footer{
-    height: 200px;
-    background-color: black;
-    color:white;
+    
 }
 
 .footer-section{
+    height: 200px;
+    background-color: black;
     padding-top: 10px;
-    margin-top: 20px;
+    margin-top: 20px;    
 }
 .footer-section h2{
     font-size: 30px;
