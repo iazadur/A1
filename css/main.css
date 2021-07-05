@@ -16,20 +16,29 @@ body{
 .oriange{
     color: orange;
 }
+.col-2{
+    width: 50%;
+}
+.col-3{
+    width: 33.33%;
+}
 
 .m-t-80{
     margin-top: 80px;
 }
-
+.m-t-60{
+    margin-top: 60px;
+}
+.text-center{
+    text-align: center;
+}
 /* Header Section */
 
 
 .header-section{
     margin: 50px 0px;
 }
-.col-2{
-    width: 50%;
-}
+
 .right-header{
     margin-top: 122px;
 }
@@ -84,4 +93,57 @@ body{
 }
 .about-right a{
     padding-top: 500px;
+}
+/* Recipie Scetion */
+
+
+.recipie-section-top{
+    width: 706px;
+    margin: 0 auto;
+}
+.recipie-section-top h1{
+    color: gray;
+    font-size: 30px;
+}
+.recipie-section-top p{
+    color: gray;
+}
+.recipie-item{
+    padding: 20px;
+    box-shadow: rgb(230, 226, 226) 10px 10px 40px;
+    border-radius: 30px;
+    margin: 0 20px;
+
+}
+.recipie-item img{
+    width: 100%;
+    
+}
+.recipie-item h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.recipie-item p{
+    color: gray;
+}
+
+/* Footer Section */
+
+
+footer{
+    height: 200px;
+    background-color: black;
+    color:white;
+}
+
+.footer-section{
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.footer-section h2{
+    font-size: 30px;
+    color: gray;
+}
+.footer-section p{
+    color: gray;
 }
