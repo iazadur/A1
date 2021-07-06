@@ -199,9 +199,11 @@ input[type=email]:focus {
     box-sizing: border-box;
     background-color: #F0C7B1;
     border: 0;
+    font-weight: bold;
   }
   input[type=button]:hover {
     background-color: rgb(238, 88, 163);
+    color: white;
   }
 
 /* Order Section */
