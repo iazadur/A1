@@ -159,21 +159,50 @@ body{
 }
 /* Subscribtions Sections */
 
-.subscribe{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(245, 0, 0);
-    font-size: 32px;
+.subscribe-section{
+    background-color: #C8E7E1;
+    margin: 20px 0;
+    padding: 20px 10px;
 }
-#input-field{
-    padding: 20px 100px;
-    border-radius: 50px;
-    border: 2px solid rgb(233, 224, 224);
+.subscribe h2{
+    font-size: 35px;
+    width: 220px;
+    border-bottom: 3px solid black;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-weight: bold;
 }
-#input-field:hover{
-    border: 2px solid rgb(196, 13, 13);
-    
+
+.subscribe p{
+    font-weight: 400;
 
 }
+
+input[type=email] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 0;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+input[type=email]:focus {
+    background-color: rgb(221, 234, 238);
+    border: none;
+  }
+
+  input[type=button] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #F0C7B1;
+    border: 0;
+  }
+  input[type=button]:hover {
+    background-color: rgb(238, 88, 163);
+  }
 
 /* Order Section */
 
@@ -210,10 +239,6 @@ body{
 
 /* Footer Section */
 
-
-footer{
-    
-}
 
 .footer-section{
     height: 200px;
