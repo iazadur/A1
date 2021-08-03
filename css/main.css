@@ -4,254 +4,28 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.container{
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: -1 5%;
-    
-}
-.flexible-display{
-    display: flex;
-}
-.oriange{
-    color: orange;
-}
-.col-1{
-    width: 100%;
-}
-
-.col-2{
-    width: 50%;
-}
-.col-3{
-    width: 33.33%;
-}
-
-.m-t-80{
-    margin-top: 80px;
-}
-.m-t-60{
-    margin-top: 60px;
-}
-.text-center{
-    text-align: center;
-}
-/* Header Section */
 
 
-.header-section{
-    margin: 50px 0px;
-}
 
-.right-header{
-    margin-top: 122px;
-}
 
-.right-header h1{
-    font-size: 50px;
-    font-weight: 700;
-    color: gray;
-}
-.right-header p{
-    color: gray;
-}
-.right-header a{
-    margin-top: 20000px;
-}
+/* ================================================= */
 #button{
-    text-decoration: none;
-    color: white;
-    background-image: linear-gradient(rgb(11, 11, 56),red );
+    background-image: linear-gradient(rgb(153, 26, 136),rgb(255, 76, 76) );
     border-radius: 50px;
-    padding: 15px 40px;
-    
+    padding: 15px 40px;   
 }
-
-.left-header img{
-    width: 100%;
-}
-
-/* About Section */
-
-.about-section{
-    background-image: url(../images/shapes/7.png);
-    background-repeat: no-repeat;
-}
-.about{
-    max-width: 80%;
-    margin: 0 auto;
-}
-.about-left{
-    max-width: 720px;
-}
-.about-left img{
-    padding-left: 100px;
-    padding-top: 10px;
-  vertical-align: middle;
-  max-width: 50%;
-}
-.about-right{
-    margin-top: 40px;
-
-}
-.about-right h1{
+.fs-0{
     font-size: 50px;
-    font-weight: 700;
     color: gray;
 }
-.about-right a{
-    padding-top: 500px;
-}
-/* Recipie Scetion */
-
-
-.recipie-section-top{
-    width: 706px;
-    margin: 0 auto;
-}
-.recipie-section-top h1{
-    color: gray;
-    font-size: 30px;
-}
-.recipie-section-top p{
+.text-gray{
     color: gray;
 }
 .recipie-item{
-    padding: 20px;
-    box-shadow: rgb(230, 226, 226) 10px 10px 40px;
+    box-shadow: rgb(230 226 226) 10px 10px 40px;
     border-radius: 30px;
-    margin: 0 20px;
-
 }
-.recipie-item img{
-    width: 100%;
-    
-}
-.recipie-item h3{
-    font-size: 25px;
-    font-weight: 700;
-}
-.recipie-item p{
-    color: gray;
-}
-/* Counter Section */
-
-.counter-section{
-    margin: 0 auto;
-}
-.counter{
-    padding: 50px;
-    box-shadow: rgb(230, 226, 226) 10px 10px 40px;
-    border-radius: 20px;
-    margin: 30px;
-    
-}
-.counter h1{
-    font-size: 40px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
-.counter p{
-    color: gray;
-    margin: 0;
-    padding: 0;
-}
-/* Subscribtions Sections */
 
 .subscribe-section{
     background-color: #C8E7E1;
-    margin: 20px 0;
-    padding: 20px 10px;
-}
-.subscribe h2{
-    font-size: 35px;
-    width: 220px;
-    border-bottom: 3px solid black;
-    margin: 0 auto;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-
-.subscribe p{
-    font-weight: 400;
-
-}
-
-input[type=email] {
-    width: 40%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 0;
-    color: gray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-input[type=email]:focus {
-    background-color: rgb(221, 234, 238);
-    border: none;
-  }
-
-  input[type=button] {
-    width: 10%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    background-color: #F0C7B1;
-    border: 0;
-    font-weight: bold;
-  }
-  input[type=button]:hover {
-    background-color: rgb(238, 88, 163);
-    color: white;
-  }
-
-/* Order Section */
-
-.order-section{
-    box-shadow: rgb(230, 226, 226) 10px 10px 40px;
-    border-radius: 20px;
-
-}
-.order-left img{
-    width: 100%;
-    height: 100%;
-}
-.order-right{
-    text-align: center;
-    padding: 10%;
-
-}
-.order-right h1{
-    color: gray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-
-}
-.order-right p{
-    font-size: 18px;
-
-}
-.order-right h4{
-    font-size: 22px;
-}
-
-
-
-/* Footer Section */
-
-
-.footer-section{
-    height: 200px;
-    background-color: black;
-    padding-top: 10px;
-    margin-top: 20px;    
-}
-.footer-section h2{
-    font-size: 30px;
-    color: gray;
-}
-.footer-section p{
-    color: gray;
 }
