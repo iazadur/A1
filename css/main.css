@@ -4,12 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.container{
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: -1 5%;
-    
-}
+
 
 .oriange{
     color: orange;
@@ -43,8 +38,4 @@ body{
 
 .subscribe-section{
     background-color: #C8E7E1;
-}
-.about-section{
-    background-image: url(../images/shapes/7.png);
-    background-repeat: no-repeat;
 }
